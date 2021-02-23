@@ -14,7 +14,7 @@ export const OpenSource = () => {
         <div className='grid'>
             {data.map((i) => {
                 if (i.fork === false && i.name !== 'eswar2001')
-                    return (<Project key={i.id} data={i} />)
+                    return (<Project key={i.title} data={i} />)
                 return ""
             })}
         </div>

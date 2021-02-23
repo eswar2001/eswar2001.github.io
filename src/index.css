@@ -433,27 +433,24 @@ header > a:first-child {
   display: block;
   width: 40px;
   height: 40px;
-  /* background-image: url("./19053884601561032531-32.png"); */
+  background-size: 25px 25px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9JyNmZmZmZmYnIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBjbGFzcz0nZmVhdGhlciBmZWF0aGVyLW1haWwnPjxwYXRoIGQ9J000IDRoMTZjMS4xIDAgMiAuOSAyIDJ2MTJjMCAxLjEtLjkgMi0yIDJINGMtMS4xIDAtMi0uOS0yLTJWNmMwLTEuMS45LTIgMi0yeic+PC9wYXRoPjxwb2x5bGluZSBwb2ludHM9JzIyLDYgMTIsMTMgMiw2Jz48L3BvbHlsaW5lPjwvc3ZnPg==);
   background-position: center;
   background-repeat: no-repeat;
 }
 header > a:last-child {
-  text-indent: -99999px;
+  font-size: 3rem;
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 25px 25px;
   transition: 0.3s opacity, 0.3s background-image;
   opacity: 0.6;
-  /* background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9JyNmZmZmZmYnIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBjbGFzcz0nZmVhdGhlciBmZWF0aGVyLW1haWwnPjxwYXRoIGQ9J000IDRoMTZjMS4xIDAgMiAuOSAyIDJ2MTJjMCAxLjEtLjkgMi0yIDJINGMtMS4xIDAtMi0uOS0yLTJWNmMwLTEuMS45LTIgMi0yeic+PC9wYXRoPjxwb2x5bGluZSBwb2ludHM9JzIyLDYgMTIsMTMgMiw2Jz48L3BvbHlsaW5lPjwvc3ZnPg==); */
 }
 header > a:last-child:hover {
   opacity: 1;
-}
-header > a:last-child:hover {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9JyNCQjg2RkMnIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBjbGFzcz0nZmVhdGhlciBmZWF0aGVyLW1haWwnPjxwYXRoIGQ9J000IDRoMTZjMS4xIDAgMiAuOSAyIDJ2MTJjMCAxLjEtLjkgMi0yIDJINGMtMS4xIDAtMi0uOS0yLTJWNmMwLTEuMS45LTIgMi0yeic+PC9wYXRoPjxwb2x5bGluZSBwb2ludHM9JzIyLDYgMTIsMTMgMiw2Jz48L3BvbHlsaW5lPjwvc3ZnPg==);
 }
 footer {
   margin: 0 auto;

@@ -33,7 +33,7 @@ export const Medium = () => {
             return <MediumPost key={i.title} data={i} />
         })}
         {outDatedData.map((i) => {
-            return <MediumPost key={i} data={i} />
+            return <MediumPost key={i.title} data={i} />
         })}
     </section>
     )
