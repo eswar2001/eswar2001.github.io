@@ -628,86 +628,6 @@ form button:hover {
     max-width: 80%;
   }
 }
-.projects {
-  margin-top: 12%;
-}
-.projects h2 {
-  padding: 0;
-  margin: 0;
-  margin: 0 0 4rem;
-  font-size: 2.4rem;
-}
-.projects .project {
-  display: flex;
-  margin: 0 0 8rem;
-}
-.projects .project:last-child {
-  margin-bottom: 0;
-}
-.projects .project h3 {
-  padding: 0;
-  margin: 0;
-  font-size: 2rem;
-  margin: 0 0 2rem;
-}
-.projects .project p {
-  padding: 0;
-  margin: 0;
-  line-height: 160%;
-  margin: 2rem 0;
-}
-.projects .project p.mono {
-  font-family: source code pro, monospace;
-  color: rgba(255, 255, 255, 0.87);
-  font-size: 2rem;
-}
-.projects .project a.ico-visit {
-  margin-top: 1rem;
-  font-weight: 700;
-  font-size: 1.4rem;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9JyNmZmZmZmYnIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBjbGFzcz0nZmVhdGhlciBmZWF0aGVyLWFycm93LXJpZ2h0Jz48bGluZSB4MT0nNScgeTE9JzEyJyB4Mj0nMTknIHkyPScxMic+PC9saW5lPjxwb2x5bGluZSBwb2ludHM9JzEyIDUgMTkgMTIgMTIgMTknPjwvcG9seWxpbmU+PC9zdmc+);
-  background-repeat: no-repeat;
-  background-position: 90% center;
-  background-size: 20px;
-  padding-right: 35px;
-  display: inline-block;
-  transition: 0.3s background-image, 0.3s color, 0.2s background-position;
-}
-.projects .project a.ico-visit:hover,
-.projects .project a.ico-visit:focus {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9JyNCQjg2RkMnIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBjbGFzcz0nZmVhdGhlciBmZWF0aGVyLWFycm93LXJpZ2h0Jz48bGluZSB4MT0nNScgeTE9JzEyJyB4Mj0nMTknIHkyPScxMic+PC9saW5lPjxwb2x5bGluZSBwb2ludHM9JzEyIDUgMTkgMTIgMTIgMTknPjwvcG9seWxpbmU+PC9zdmc+);
-  background-position: 95% center;
-}
-.projects .project img {
-  border-radius: 10px;
-}
-@media only screen and (min-width: 1024px) {
-  .projects .project img {
-    width: 600px;
-  }
-  .projects .project .details {
-    padding-right: 8rem;
-  }
-}
-@media only screen and (max-width: 1240px) {
-  .projects .project img {
-    width: 400px;
-    height: 325px;
-  }
-}
-@media only screen and (max-width: 930px) {
-  .projects .project {
-    flex-direction: column-reverse;
-  }
-  .projects .project .details {
-    padding: 0;
-  }
-  .projects .project img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 4rem;
-  }
-}
 .contact-form {
   margin-top: 12%;
 }
@@ -843,7 +763,7 @@ form button:hover {
   }
 }
 .open-source {
-  margin-top: 12%;
+  margin-top: 5%;
 }
 .open-source h2 {
   padding: 0;

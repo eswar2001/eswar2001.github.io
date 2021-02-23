@@ -3,7 +3,7 @@ import { Footer } from './components/footer'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
 import { OpenSource } from './components/openSource'
-import { Projects } from './components/projects'
+import { Medium } from './components/Medium'
 export const App = () => {
     return (
         <>
@@ -11,7 +11,7 @@ export const App = () => {
             <div className="content">
                 <div className='single'>
                     <Hero />
-                    <Projects />
+                    <Medium />
                     <OpenSource />
                 </div>
             </div>
