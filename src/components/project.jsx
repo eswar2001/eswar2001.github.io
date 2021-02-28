@@ -9,8 +9,9 @@ export const Project = (props) => {
                 setList(Object.keys(response.data))
             })
     })
+    var m = 99999;
     if (props.data.homepage)
-        return (<div className='project'>
+        return (<div className='project' key={m++}>
             <p style={{ fontWeight: 'bold' }} className="mt-1 ml-2"><a rel="noreferrer" href={props.data.homepage} title={props.data.name}>{props.data.name}</a></p>
             <p className="mt-1 ml-2">
                 {props.data.description}<br />
@@ -26,7 +27,7 @@ export const Project = (props) => {
                 title={props.data.name} className='ico-visit ml-5 mb-1' target='_blank' >Visit</a>
         </div>)
     else {
-        return (<div className='project'>
+        return (<div className='project' key={m++}>
             <p style={{ fontWeight: 'bold' }} className="mt-1 ml-2"><a rel="noreferrer" href={props.data.homepage} title={props.data.name}>{props.data.name}</a></p>
             <p className="mt-1 ml-2">{props.data.description}<br />
                 <strong> Languages Used:</strong> {list.map((j) => {
