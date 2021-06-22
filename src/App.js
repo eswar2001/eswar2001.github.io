@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Medium } from './components/blogs';
 import { Footer } from './components/footer';
 import { Github } from './components/github';
@@ -19,4 +19,3 @@ export const App = () => {
         </>
     )
 }
-
