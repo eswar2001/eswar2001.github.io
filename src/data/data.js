@@ -1,5 +1,9 @@
 
 export const blogsData = [
+     {
+        link: 'https://eswar2001.medium.com/fake-rest-api-in-30-sec-21fe898bd032',
+        title: 'Fake Rest API in 30 sec'
+    },
     {
         link: 'https://eswar2001.medium.com/master-to-compare-algorithms-768d82518974?source=your_stories_page-------------------------------------',
         title: 'Master on how to compare Algorithms'
