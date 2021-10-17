@@ -7,9 +7,9 @@
 
 .sphere-animation {
   z-index: -999999;
-  position: sticky;
-  top: 30%;
-  left: 30%;
+  position: absolute;
+  top: 40%;
+  left: 40%;
   width: 200px;
   height: 300px;
   margin: -290px 0 0 -290px;
@@ -24,7 +24,7 @@
 
 @media (min-width: 500px) {
   .sphere path {
-    stroke-width: .4px;
+    stroke-width: 0.4px;
   }
 }
 
@@ -598,7 +598,7 @@ header {
   height: 200px;
 }
 
-header>a:first-child {
+header > a:first-child {
   text-indent: -99999px;
   display: block;
   width: 40px;
@@ -609,7 +609,7 @@ header>a:first-child {
   background-repeat: no-repeat;
 }
 
-header>a:last-child {
+header > a:last-child {
   font-size: 3rem;
   display: inline-block;
   width: 50px;
@@ -621,7 +621,7 @@ header>a:last-child {
   opacity: 0.6;
 }
 
-header>a:last-child:hover {
+header > a:last-child:hover {
   opacity: 1;
 }
 
@@ -957,16 +957,20 @@ footer a:last-child {
   transition: 0.3s background-image, 0.3s color, 0.2s background-position;
 }
 
-.open-source .project a.ico-visit:hover, .open-source .project a.ico-visit:focus {
+.open-source .project a.ico-visit:hover,
+.open-source .project a.ico-visit:focus {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9JyNCQjg2RkMnIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJyBjbGFzcz0nZmVhdGhlciBmZWF0aGVyLWFycm93LXJpZ2h0Jz48bGluZSB4MT0nNScgeTE9JzEyJyB4Mj0nMTknIHkyPScxMic+PC9saW5lPjxwb2x5bGluZSBwb2ludHM9JzEyIDUgMTkgMTIgMTIgMTknPjwvcG9seWxpbmU+PC9zdmc+);
   background-position: 95% center;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   font-family: "Roboto Mono", monospace;
   width: 100%;
   margin: 0;
