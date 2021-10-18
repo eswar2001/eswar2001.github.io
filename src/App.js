@@ -11,8 +11,8 @@ export const App = () => {
             <div className="content">
                 <div className='single'>
                     <Hero />
-                    <Medium />
                     <Github />
+                    <Medium />
                 </div>
             </div>
             <Footer />
