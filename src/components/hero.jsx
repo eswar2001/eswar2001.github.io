@@ -9,7 +9,8 @@ export const Hero = () => {
           A Computer Science Engineer, who loves to code and solve problems 🚀.
         </h1>
         <p className="mono">
-          Full Stack Developer Intern <code>@Skylark Labs</code> | Developer
+          ASDE <code>@Juspay</code> | 
+          Ex-Full Stack Developer Intern <code>@Skylark Labs</code> | Developer
           Students Club lead for DSCVIIT | CodechefVIIT Representative | OSC
           LEAD
         </p>
